@@ -1,6 +1,6 @@
 const router = require('express').Router();
 router.get("/getusers",(req,res)=>{
-    res.json({
+    res.send({
         success:true,
         data:[{name:"Pranav"}]
     });
